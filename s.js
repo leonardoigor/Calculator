@@ -20,8 +20,8 @@ $(document).ready(function()
 "box-shadow":"0px 0px 5px","border-radius": "20px"});
 
     $('input').hide()
-    .delay(1000)
-    .fadeIn('1000').css({});
+    .delay(3000)
+    .fadeIn(4700);
 });
 
 function change(num)
