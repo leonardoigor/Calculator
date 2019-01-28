@@ -18,16 +18,16 @@
                        <h1>Calculadora</h1>
                    </div>
                    <div >
-                       <input id="display" type="text" name="display">
+                       <input id="display" type="text" name="display" autofocus>
                    </div>
 
                
                 
                       <div class="colum">
-                            <input class="btn" type="submit" onclick="change()" value="CE">
-                            <input class="btn" type="submit" onclick="change()" value="C">
-                            <input class="btn" type="submit" onclick="change()" value="«">
-                            <input class="btn" type="submit" onclick="change()" value="÷">
+                            <input class="btn" type="submit" onclick="clean()" value="CE">
+                            <input class="btn" type="submit" onclick="clean()" value="C">
+                            <input class="btn" type="submit" onclick="b()" value="«">
+                            <input class="btn" type="submit" onclick="change('/')" value="÷">
                         </div>
                 
                         <div class="colum">
@@ -52,10 +52,10 @@
                         </div>
                 
                         <div class="colum">
-                            <input class="btn" type="submit" onclick="change()" value="±">
-                            <input class="btn" type="submit" onclick="change()" value="0">
-                            <input class="btn" type="submit" onclick="change()" value=",">
-                            <input id="btn"  type="submit"  value="=">
+                            <input class="btn" type="submit" onclick="change(0)" value="±">
+                            <input class="btn" type="submit" onclick="change(0)" value="0">
+                            <input class="btn" type="submit" onclick="change('.')" value=",">
+                            <input id="btn"  type="submit"   value="=">
                         </div>
                     </div>
 

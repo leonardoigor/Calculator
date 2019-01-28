@@ -14,7 +14,7 @@ $(document).ready(function()
 
     $('.colum').css({margin:"5px"});
 
-    $('.window').css({background:"#fff",width:"310px",display:"flex",
+    $('.window').css({background:"linear-gradient(to right,red,blue)",width:"310px",display:"flex",
 "justify-content":"center","align-items":"center","flex-direction":"column"
 ,border:"1px solid darkgrey",
 "box-shadow":"0px 0px 5px","border-radius": "20px"});
@@ -40,4 +40,17 @@ function equal()
     {
         display.value=eval(dp);
     }
+}
+
+function clean()
+{
+    var display =document.getElementById('display');
+    display.value="";
+}
+
+function b()
+{
+    var exp =document.getElementById('display').value;
+    var d=document.getElementById('display').value=exp.substring(0,exp.lenght -2);
+    console.log(d);
 }
