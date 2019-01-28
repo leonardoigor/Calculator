@@ -22,6 +22,7 @@ $(document).ready(function()
     $('input').hide()
     .delay(3000)
     .fadeIn(4700);
+    $('h1').hide().delay(2000).fadeIn(4700).css({color:"white"});
 });
 
 function change(num)
