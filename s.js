@@ -24,6 +24,8 @@ $(document).ready(function()
     .fadeIn(4700);
     
     $('h1').hide().delay(2000).fadeIn(4700).css({color:"white"});
+
+    $('h3').hide().delay(6700).fadeIn(4700).css({color:"white"});
 });
 
 function change(num)
@@ -56,3 +58,14 @@ function b()
     var d=document.getElementById('display').value=exp.substring(0,exp.lenght -2);
     console.log(d);
 }
+
+window.onload=function()
+{
+    var btn = document.createElement("h3");        
+    var t = document.createTextNode("Created by: Igor Leonardo!");       
+    btn.appendChild(t); 
+    var q =document.getElementById('text1');  
+    q.appendChild(btn);        
+    console.log(q);                    
+    // document.body.appendChild(btn);  
+};
