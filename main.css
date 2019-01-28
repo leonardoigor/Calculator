@@ -2,14 +2,14 @@
 {
     
 }
-input.btn
+input.btn,#btn
 {
     height: 60px;
     width: 65px;
     box-shadow:0px 0px 5px;
     font-size: 39px;
 }
-.display
+#display
 {
     width: 30vh;
     height: 73px;

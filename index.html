@@ -18,44 +18,44 @@
                        <h1>Calculadora</h1>
                    </div>
                    <div >
-                       <input class="display" type="text">
+                       <input id="display" type="text" name="display">
                    </div>
 
                
                 
                       <div class="colum">
-                            <input class="btn" type="submit" value="CE">
-                            <input class="btn" type="submit" value="C">
-                            <input class="btn" type="submit" value="«">
-                            <input class="btn" type="submit" value="÷">
+                            <input class="btn" type="submit" onclick="change()" value="CE">
+                            <input class="btn" type="submit" onclick="change()" value="C">
+                            <input class="btn" type="submit" onclick="change()" value="«">
+                            <input class="btn" type="submit" onclick="change()" value="÷">
                         </div>
                 
                         <div class="colum">
-                            <input class="btn" type="submit" value="7">
-                            <input class="btn" type="submit" value="8">
-                            <input class="btn" type="submit" value="9">
-                            <input class="btn" type="submit" value="X">
+                            <input class="btn" type="submit" onclick="change(7)" value="7">
+                            <input class="btn" type="submit" onclick="change(8)" value="8">
+                            <input class="btn" type="submit" onclick="change(9)" value="9">
+                            <input class="btn" type="submit" onclick="change('*')" value="X">
                         </div>
                 
                         <div class="colum">
-                            <input class="btn" type="submit" value="4">
-                            <input class="btn" type="submit" value="5">
-                            <input class="btn" type="submit" value="6">
-                            <input class="btn" type="submit" value="-">
+                            <input class="btn" type="submit" onclick="change(4)" value="4">
+                            <input class="btn" type="submit" onclick="change(5)" value="5">
+                            <input class="btn" type="submit" onclick="change(6)" value="6">
+                            <input class="btn" type="submit" onclick="change('-')" value="-">
                         </div>
                 
                         <div class="colum">
-                            <input class="btn" type="submit" value="1">
-                            <input class="btn" type="submit" value="2">
-                            <input class="btn" type="submit" value="3">
-                            <input class="btn" type="submit" value="+">
+                            <input class="btn" type="submit" onclick="change(1)" value="1">
+                            <input class="btn" type="submit" onclick="change(2)" value="2">
+                            <input class="btn" type="submit" onclick="change(3)" value="3">
+                            <input class="btn" type="submit" onclick="change('+')" value="+">
                         </div>
                 
                         <div class="colum">
-                            <input class="btn" type="submit" value="±">
-                            <input class="btn" type="submit" value="0">
-                            <input class="btn" type="submit" value=",">
-                            <input class="btn" type="submit" value="=">
+                            <input class="btn" type="submit" onclick="change()" value="±">
+                            <input class="btn" type="submit" onclick="change()" value="0">
+                            <input class="btn" type="submit" onclick="change()" value=",">
+                            <input id="btn"  type="submit"  value="=">
                         </div>
                     </div>
 

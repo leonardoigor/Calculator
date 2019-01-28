@@ -1,4 +1,6 @@
+document.getElementById("btn").addEventListener("click", equal);
 // document.getElementById("text").addEventListener("keyup", a);
+
 
 // stylle
 $(document).ready(function()
@@ -22,5 +24,20 @@ $(document).ready(function()
     .fadeIn('1000').css({});
 });
 
-document.getElementById('');
-document.getElementById('');
+function change(num)
+{
+   var display =document.getElementById('display');
+    
+    
+  var x= display.value=display.value+num;
+  console.log(x);
+
+}
+function equal()
+{
+    var dp=document.getElementById('display').value;
+    if(dp)
+    {
+        display.value=eval(dp);
+    }
+}
