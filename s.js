@@ -20,8 +20,9 @@ $(document).ready(function()
 "box-shadow":"0px 0px 5px","border-radius": "20px"});
 
     $('input').hide()
-    .delay(3000)
+    .delay(4700)
     .fadeIn(4700);
+    
     $('h1').hide().delay(2000).fadeIn(4700).css({color:"white"});
 });
 
